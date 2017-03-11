@@ -16,7 +16,7 @@ namespace Concurrency
             SetupDatabase();
             using (var db = new BloggingContext())
             {
-                var blog = new Blog {Name = "Skimedic's Blog", Url = "http://skimedic.com"};
+                var blog = new Blog {Name = "saikiran's Blog", Url = "http://www.saikiranpotru.blogspot.com" };
                 db.Add(blog);
                 db.SaveChanges();
                 //change values outside of current context

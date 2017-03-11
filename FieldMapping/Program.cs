@@ -16,7 +16,7 @@ namespace FieldMapping
             {
                 Console.WriteLine("Setting properties through C#");
                 var blog = new Blog {Name = ".NET Musings"};
-                blog.SetUrl("http://www.skimedic.com");
+                blog.SetUrl("http://www.saikiranpotru.blogspot.com");
 
                 db.Blogs.Add(blog);
                 db.SaveChanges();

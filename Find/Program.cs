@@ -23,7 +23,7 @@ namespace Find
             {
                 db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
-                var blog = new Blog { Name = "Skimedic's Blog", Url = "http://skimedic.com" };
+                var blog = new Blog { Name = "Saikiran's Blog", Url = "http://www.saikiranpotru.blogspot.com" };
                 db.Add(blog);
                 db.SaveChanges();
             }

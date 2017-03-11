@@ -14,7 +14,7 @@ namespace ConnectionResiliency
             BloggingContext db = SetUpContext();
             using (db)
             {
-                var blog = new Blog { Name = "Skimedic's Blog", Url = "http://skimedic.com" };
+                var blog = new Blog { Name = "Saikiran's Blog", Url = "http://www.saikiranpotru.blogspot.com" };
                 db.Add(blog);
                 try
                 {
